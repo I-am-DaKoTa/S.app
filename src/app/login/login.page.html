@@ -1,0 +1,35 @@
+<body>
+
+  <div class="text">
+    <h1 class="reg_maintext">Авторизация</h1>
+    <h5 class="reg_text">Введите данные, чтобы <br> войти в систему</h5>
+  </div>
+  <ion-content>
+    <div class="ion-padding">
+
+      <form class="ion-padding">
+        <ion-list>
+          <ion-item>
+            <ion-label position="floating">Электронная почта</ion-label>
+            <ion-input type="text" id="email"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="floating">Пароль</ion-label>
+            <ion-input type="password"></ion-input>
+          </ion-item>
+
+        </ion-list>
+      </form>
+      <ion-button href="/tabs/profile"class="buttons" color="primary" shape="round">Войти в аккаунт</ion-button>
+    </div>
+
+    <br><br><br><br>
+    <ion-button href="/reg" expand="block" size="small" color="secondary" fill="clear">Нет аккаунта? Зарегистрируйтесь
+    </ion-button>
+    <ion-button href="/home" expand="block" size="small" color="medium" fill="clear">Перейти на главный
+      экран
+    </ion-button>
+
+  </ion-content>
+</body>

@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+ion-content {
+  --background: #f0f4fd;
+}
+.number {
+  font-size: large;
+  margin: 0;
+  margin-right: 5px;
+  width: 30px;
+}
+
+.button_calculate {
+  width: auto;
+  bottom: 4vh;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.weight {
+  font-size: smaller;
+  margin-right: 5px;
+}
+.background1 {
+  background-color: #385a63;
+}
+.background {
+  background-color: #385a63;
+}
+.background_card {
+  background-color: #385a63;
+}
+div {
+  background-color: #385a63;
+}

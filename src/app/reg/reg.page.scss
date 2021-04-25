@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.text {
+  text-align: center;
+  display: block;
+}
+.reg_maintext {
+  color: #22215b;
+  margin-top: 30px;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.reg_text {
+  color: #7b7f9e;
+  font-weight: 400;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+form {
+  margin-top: 30px;
+}
+
+.wrap-input {
+  background-color: rgba(199, 199, 199, 0.4);
+  border-radius: 20px;
+  margin-bottom: 26px;
+  box-shadow: 0 10px 30px 0px rgba(57, 71, 82, 0.15);
+}
+
+.ion-input {
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-size: 16px;
+  line-height: 1.2;
+  border: none;
+  outline: none;
+  height: 46px;
+  text-align: center;
+}
+
+.container-form-btn {
+  display: flex;
+  justify-content: center;
+}
+.buttons {
+  display: block;
+  height: 50px;
+  width: 270px;
+  position: fixed;
+  left: 15%;
+  text-align: left;
+  float: center;
+}

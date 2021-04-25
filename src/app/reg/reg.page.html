@@ -1,0 +1,65 @@
+<body>
+
+  <div class="text">
+    <h1 class="reg_maintext">Регистрация</h1>
+    <h5 class="reg_text">Заполните форму регистрации,
+      чтобы использовать приложение</h5>
+  </div>
+  <ion-content>
+
+    <div class="ion-padding">
+
+      <form class="ion-padding">
+        <ion-list>
+          <ion-item>
+            <ion-label position="floating">Фамилия Имя</ion-label>
+            <ion-input type="text" ></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label>Класс</ion-label>
+            <ion-select placeholder="Номер">
+              <ion-select-option value="5">5</ion-select-option>
+              <ion-select-option value="6">6</ion-select-option>
+              <ion-select-option value="7">7</ion-select-option>
+              <ion-select-option value="8">8</ion-select-option>
+              <ion-select-option value="9">9</ion-select-option>
+              <ion-select-option value="10">10</ion-select-option>
+              <ion-select-option value="11">11</ion-select-option>
+            </ion-select>
+            <ion-select placeholder="Буква">
+              <ion-select-option value="А">А</ion-select-option>
+              <ion-select-option value="Б">Б</ion-select-option>
+              <ion-select-option value="В">В</ion-select-option>
+              <ion-select-option value="Г">Г</ion-select-option>
+            </ion-select>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="floating">Электронная почта</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="floating">Пароль</ion-label>
+            <ion-input type="password" ></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="floating">Подтвердите пароль</ion-label>
+            <ion-input type="password"></ion-input>
+          </ion-item>
+        </ion-list>
+      </form>
+      <ion-button href="/tabs/profile" class="buttons" color="primary" shape="round">Создать аккаунт</ion-button>
+    </div>
+
+    <br><br><br><br>
+    <ion-button href="/login" expand="block" size="small" color="secondary" fill="clear">Есть аккаунт?
+      Авторизируйтесь</ion-button>
+    <ion-button href="/home" expand="block" size="small" color="medium" fill="clear">Перейти на главный
+      экран
+    </ion-button>
+
+  </ion-content>
+</body>

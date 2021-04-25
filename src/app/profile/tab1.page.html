@@ -1,0 +1,276 @@
+<ion-content>
+
+  <div class="slides ion-margin-bottom">
+    <ion-card class="profile" style="align-self: center;">
+      <img src="/assets/back.png" class="background" />
+
+      <ion-avatar class="avatar" style="width: 100px; height: 100px;">
+        <img src="/assets/avatar.png" />
+      </ion-avatar>
+      <br />
+      <ion-item-sliding>
+        <ion-label style="color: black;">
+          <h1>
+            Фамилия Имя
+          </h1>
+          <h1>
+            Класс: NN
+          </h1>
+          <h2>
+            Email: testemail@email.com
+          </h2>
+        </ion-label>
+      </ion-item-sliding>
+    </ion-card>
+  </div>
+
+  <div class="container">
+
+    <h2>Расписание</h2>
+
+    <ion-slides [options]="slidesOptions">
+      <ion-slide>
+        <ion-card>
+          <ion-card-header>
+            <div class="main">
+              <h2 style="color: rgba(0, 0, 0, 0.8); font-weight: 600;">Пн</h2>
+            </div>
+          </ion-card-header>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Математика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">8:30 - 9:10</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Физика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">9:20 - 10:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">История
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">10:20 - 11:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">ОБЖ
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">11:20 - 12:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Математика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">12:20 - 13:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Англ. Яз.
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">13:10 - 13:50</ion-card-subtitle>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card>
+          <ion-card-header>
+            <div class="main">
+              <h2 style="color: rgba(0, 0, 0, 0.8); font-weight: 600;">Вт</h2>
+            </div>
+          </ion-card-header>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Математика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">8:30 - 9:10</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Информатика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">9:20 - 10:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Литература
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">10:20 - 11:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Физика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">11:20 - 12:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Математика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">12:20 - 13:00</ion-card-subtitle>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card>
+          <ion-card-header>
+            <div class="main">
+              <h2 style="color: rgba(0, 0, 0, 0.8); font-weight: 600;">Ср</h2>
+            </div>
+          </ion-card-header>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Рус. Яз.
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">8:30 - 9:10</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Математика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">9:20 - 10:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Литература
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">10:20 - 11:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Англ. Яз.
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">11:20 - 12:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Литература
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">12:20 - 13:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Информатика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">13:10 - 13:50</ion-card-subtitle>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card>
+          <ion-card-header>
+            <div class="main">
+              <h2 style="color: rgba(0, 0, 0, 0.8); font-weight: 600;">Чт</h2>
+            </div>
+          </ion-card-header>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Информатика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">8:30 - 9:10</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Химия
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">9:20 - 10:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Черчение
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">10:20 - 11:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Физика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">11:20 - 12:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Рус. Яз.
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">12:20 - 13:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Англ. Яз.
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">13:10 - 13:50</ion-card-subtitle>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card>
+          <ion-card-header>
+            <div class="main">
+              <h2 style="color: rgba(0, 0, 0, 0.8); font-weight: 600;">Пт</h2>
+            </div>
+          </ion-card-header>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Информатика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">8:30 - 9:10</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Физика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">9:20 - 10:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Физика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">10:20 - 11:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Математика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">11:20 - 12:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Математика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">12:20 - 13:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Информатика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">13:10 - 13:50</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Англ. Яз.
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">14:00 - 14:40</ion-card-subtitle>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card>
+          <ion-card-header>
+            <div class="main">
+              <h2 style="color: rgba(0, 0, 0, 0.8); font-weight: 600;">Сб</h2>
+            </div>
+          </ion-card-header>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Англ. Яз.
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">8:30 - 9:10</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Физика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">9:20 - 10:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Физкультура
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">10:20 - 11:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Физкультура
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">11:20 - 12:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">Математика
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">12:20 - 13:00</ion-card-subtitle>
+          </ion-card-content>
+          <ion-card-content class="ion-text-left" style="padding-bottom: 0; padding-top: 0;">
+            <ion-card-title class="ion-margin-bottom" style="color: rgba(0, 0, 0, 0.8); font-size: large;">История
+            </ion-card-title>
+            <ion-card-subtitle style="margin-top: -12px;">13:10 - 13:50</ion-card-subtitle>
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+
+    </ion-slides>
+  </div>
+
+  <br><br><br>
+</ion-content>

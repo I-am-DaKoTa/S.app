@@ -1,0 +1,67 @@
+<br><br>
+<ion-content [fullscreen]="true">
+  <ion-card class="background">
+    <ion-card class="background1">
+      <img src="/assets/calculator.png" class="background" />
+      <br />
+      <ion-item>
+        <h1 class="number">
+          «5»
+        </h1>
+        <label class="weight">Вес:10 </label>
+        <ion-input [(ngModel)]="excellent1" class="input" type="number"></ion-input>
+        <label class="weight">Вес:20 </label>
+        <ion-input [(ngModel)]="excellent2" class="input" type="number"></ion-input>
+        <label class="weight">Вес:30 </label>
+        <ion-input [(ngModel)]="excellent3" class="input" type="number"></ion-input>
+      </ion-item>
+      <ion-item>
+        <h1 class="number">
+          «4»
+        </h1>
+        <label class="weight">Вес:10</label>
+        <ion-input [(ngModel)]="good1" class="input" type="number"></ion-input>
+        <label class="weight">Вес:20 </label>
+        <ion-input [(ngModel)]="good2" class="input" type="number"></ion-input>
+        <label class="weight">Вес:30 </label>
+        <ion-input [(ngModel)]="good3" class="input" type="number"></ion-input>
+      </ion-item>
+      <ion-item>
+        <h1 class="number">
+          «3»
+        </h1>
+        <label class="weight">Вес:10</label>
+        <ion-input [(ngModel)]="satisfactorily1" class="input" type="number"></ion-input>
+        <label class="weight">Вес:20</label>
+        <ion-input [(ngModel)]="satisfactorily2" class="input" type="number"></ion-input>
+        <label class="weight">Вес:30</label>
+        <ion-input [(ngModel)]="satisfactorily3" class="input" type="number"></ion-input>
+      </ion-item>
+      <ion-item>
+        <h1 class="number">
+          «2»
+        </h1>
+        <label class="weight">Вес:10</label>
+        <ion-input [(ngModel)]="unsatisfactorily1" class="input" type="number"></ion-input>
+        <label class="weight">Вес:20</label>
+        <ion-input [(ngModel)]="unsatisfactorily2" class="input" type="number"></ion-input>
+        <label class="weight">Вес:30</label>
+        <ion-input [(ngModel)]="unsatisfactorily3" class="input" type="number"></ion-input>
+      </ion-item>
+      <br />
+      <ion-button expand="block" shape="round" color="danger" class="button_calculate" (click)="getMark()">Подсчитать
+      </ion-button>
+    </ion-card>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      Ваш средний балл: {{mark}}
+    </ion-card-content>
+    <ion-card-content>
+      Ещё пятёрок (с весом 10) для пятёрки: {{markStr}} {{excellent11}}
+    </ion-card-content>
+    <ion-card-content>
+      Ещё пятёрок (с весом 10) для четвёрки: {{markStr2}} {{excellent22}}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
